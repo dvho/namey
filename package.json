@@ -1,0 +1,23 @@
+{
+  "name": "namey",
+  "version": "1.0.0",
+  "description": "Namey will help you narrow down and remember an individual's name with just a few inputs.",
+  "main": "namey.js",
+  "files": [
+    "allNames.js",
+    "namey.js",
+    "namey.test.js",
+    "package.json",
+    "readme.md"
+  ],
+  "scripts": {
+    "test": "node namey.test.js",
+    "prepublish": "npm test",
+    "work": "node work.js"
+  },
+  "keywords": [
+    "names"
+  ],
+  "author": "David H.",
+  "license": "MIT"
+}
