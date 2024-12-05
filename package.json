@@ -1,22 +1,29 @@
 {
   "name": "namey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Namey will help you narrow down and remember an individual's name with just a few inputs.",
   "main": "namey.js",
   "files": [
+    "package.json",
     "allNames.js",
     "namey.js",
     "namey.test.js",
-    "package.json",
     "readme.md"
   ],
   "scripts": {
     "test": "node namey.test.js",
-    "prepublish": "npm test",
-    "work": "node work.js"
+    "prepublishOnly": "npm test"
   },
   "keywords": [
-    "names"
+    "names",
+    "identification",
+    "recognition",
+    "memory",
+    "recall",
+    "associative identification",
+    "associative recognition",
+    "associative memory",
+    "associative recall"
   ],
   "author": "David H.",
   "license": "MIT"

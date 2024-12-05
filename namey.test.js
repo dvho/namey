@@ -3,12 +3,12 @@
 Note: In order to prevent the    [History]    folder from being published to NPM all publishable files are whitelisted in package.json as...
 
 "files": [
+  "package.json",
   "allNames.js",
   "namey.js",
   "namey.test.js",
-  "package.json",
   "readme.md"
-]
+],
 
 ...per    https://medium.com/@jdxcode/for-the-love-of-god-dont-use-npmignore-f93c08909d8d    . The    npm pack && tar -xvzf *.tgz && rm -rf package *.tgz    test suggested in this article revealed that .npmignore was indeed not ignoring the files specified within it but that the above package.json whitelisting technique worked
 
